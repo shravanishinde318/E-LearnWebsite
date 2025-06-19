@@ -2,7 +2,6 @@ body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
 }
-
 .top-bar {
   background-color: #f8f9fa;
   padding: 10px 0;
@@ -35,7 +34,10 @@ body {
 }
 .tagline {
   font-size: 1.3rem;
+
   font-style:italic;
+  font-style:initial;
+
 }
 .line-white {
   font-size: 1.6rem;
@@ -44,8 +46,8 @@ body {
 .line-yellow {
   font-size: 3rem;
 }.text-bordered {
-  color: rgb(138, 216, 243); /* Fill color */
-  -webkit-text-stroke: 1px black; /* Border around text */
+  color: rgb(138, 216, 243); 
+  -webkit-text-stroke: 1px black; 
   font-weight: bold;
 }
 
@@ -84,14 +86,13 @@ section h2 {
   color: #333;
 }
 .img-fluid {
-  max-height: 60px; 
+max-height: 60px; 
+   max-height: 60px;
   object-fit: contain;
   width: auto;
   margin: auto;
   display: block;
 }
-
-
 .card-img-top {
   height: 200px;
   object-fit: cover;
