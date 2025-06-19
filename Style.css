@@ -19,12 +19,14 @@ body {
   position: relative;
 }
 
-.image-section img {
+.hero-img {
   width: 100%;
+  height: auto;
   max-height: 700px;
+  display: block;
   object-fit: cover;
-  display: block; 
 }
+
 
 .image-text {
   position: absolute;
