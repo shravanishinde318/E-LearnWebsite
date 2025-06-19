@@ -17,15 +17,19 @@ body {
 }
 .image-section {
   position: relative;
+  width: 100vw; 
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .hero-img {
   width: 100%;
   height: auto;
-  max-height: 700px;
-  display: block;
   object-fit: cover;
+  display: block;
+  max-height: 700px;
 }
+
 
 
 .image-text {
